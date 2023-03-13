@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- link font family -->
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="home.css">
+
+</head>
+
+<body>
+    <header>
+        <p class="title">Competitor Analysis</p>
+        <p class="date">Date Range</p>
+    </header>
+    <section class="view-section">
+        <p class="view">View:</p>
+        <p class="view-list">
+            <a href="../Competitors List/competitors.html">Competitors List</a> <br>
+            <a href="../Reports/total reviews.html">Reports</a><br>
+            <a href="../Keywords/keywords.html">Keywords</a>
+        </p>
+    </section>
+
+    <section>
+        <img class="google-images" src="./Images/google.png" alt="google images">
+        <a href="../Competitors List/competitors.html" class="find-competitors">Find Local Competitors</a>
+    </section>
+
+    <section class="table">
+        <div class="vertical-line"></div>
+        <div class="location-table">
+            <div class="location-table-heading">
+                <p class="first-heading">My Locations</p>
+                <p class="second-heading">Reviews</p>
+                <p class="third-heading">Average Rating</p>
+            </div>
+            <div class="location">
+                <p class="location-name">Fitness One <br> 21 South St, Melbourne, Victoria 3000</p>
+                <p class="reviews">50</p>
+                <p class="rating">4.5/5</p>
+            </div>
+
+        </div>
+
+
+        <div class="competitor-table">
+            <div>
+                <p class="copetitor-table-heading">My Competitors</p>
+            </div>
+
+            <div class="competitor">
+                <p class="competitor-name">Johnnys Gym</p>
+                <p class="reviews">100</p>
+                <p class="rating">4.5/5</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="modal-container">
+        <!-- Trigger the modal with a button -->
+        <a class="add-competitor-button" data-toggle="modal" data-target="#myModal">+ Add
+            Competitor</a>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Add Your Competitor</h4>
+                        <p class="modal-subtitle">Begin typing your competitors name, then choose the appropriate
+                            location from the selection
+                        </p>
+
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Competitor Name">
+                            </div>
+                        </form>
+
+                        <div class="modal-button">
+                            <button type="button" class="btn btn-default">Add Competitor</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

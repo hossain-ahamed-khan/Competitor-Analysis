@@ -1,0 +1,77 @@
+body {
+    font-family: 'Inter';
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+}
+
+.selected-locations {
+    display: flex;
+}
+
+.google-map {
+    margin: 60px;
+}
+
+img {
+    height: 784px;
+    width: 703px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 29.47px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+ul {
+    height: 670px;
+    width: 550px;
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+li {
+    padding: 10px;
+    background-color: none;
+    margin-bottom: 5px;
+    font-size: 29.47px;
+    font-weight: 400;
+
+}
+
+.buttons {
+
+    margin-top: 80px;
+    margin-left: 20px;
+
+}
+
+.buttons a {
+    text-decoration: none;
+    background-color: #D9D9D9;
+    color: #000000;
+    font-size: 27.02px;
+    font-weight: 400;
+}
+
+.add-button {
+    padding: 20px 30px;
+}
+
+.add-button:hover {
+    background-color: #cecdcd;
+}
+
+.cancel-button {
+    padding: 20px 60px;
+    margin-left: 50px;
+}
+
+.cancel-button:hover {
+    background-color: #cecdcd;
+}

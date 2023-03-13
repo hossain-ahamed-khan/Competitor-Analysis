@@ -1,0 +1,46 @@
+body {
+    font-family: 'Inter';
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 29.47px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+.date {
+    font-size: 29.47px;
+    font-weight: 400;
+    margin-left: 20rem;
+}
+
+.graph-heading a {
+    font-size: 23.05px;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.graph-heading-active {
+    text-decoration: underline;
+}
+
+.average-rating-graph {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 40px;
+    margin-top: 20px;
+    row-gap: 40px;
+    column-gap: 40px;
+}
